@@ -1,8 +1,9 @@
 <div class="container my-5">
-  <h2 class="text-center mb-4">Register for Our Ocean Event</h2>
+  <h2 class="text-center mb-4 animate__animated animate__fadeInDown" style="color: #0077b6">🐠 Register for Our Ocean Adventure! 🐬</h2>
+
   <form action="submit_registration.html" method="POST">
-    <table class="table table-bordered table-striped">
-      <thead class="table-primary">
+    <table class="table table-bordered table-striped text-center align-middle" style="background: #e0f7fa; border-radius: 10px; overflow: hidden">
+      <thead style="background: #00bcd4; color: white">
         <tr>
           <th>Field</th>
           <th>Input</th>
@@ -10,19 +11,19 @@
       </thead>
       <tbody>
         <tr>
-          <td>Full Name</td>
+          <td>Full Name <i class="fa-solid fa-user text-primary"></i></td>
           <td><input type="text" name="fullName" class="form-control" placeholder="Enter your full name" required /></td>
         </tr>
         <tr>
-          <td>Email Address</td>
+          <td>Email Address <i class="fa-solid fa-envelope text-danger"></i></td>
           <td><input type="email" name="email" class="form-control" placeholder="Enter your email" required /></td>
         </tr>
         <tr>
-          <td>Phone Number</td>
+          <td>Phone Number <i class="fa-solid fa-phone text-success"></i></td>
           <td><input type="tel" name="phone" class="form-control" placeholder="Enter your phone number" /></td>
         </tr>
         <tr>
-          <td>Number of Attendees</td>
+          <td>Number of Attendees <i class="fa-solid fa-users text-warning"></i></td>
           <td>
             <select name="attendees" class="form-control">
               <option value="1">1</option>
@@ -34,15 +35,23 @@
           </td>
         </tr>
         <tr>
-          <td>Special Notes / Requests</td>
+          <td>Special Notes / Requests <i class="fa-solid fa-starfish text-info"></i></td>
           <td><textarea name="notes" class="form-control" rows="3" placeholder="Let us know if you have any special needs or requests"></textarea></td>
         </tr>
         <tr>
           <td colspan="2" class="text-center">
-            <button type="submit" class="btn btn-success">Submit Registration</button>
+            <button type="submit" class="btn btn-lg btn-gradient" style="background: linear-gradient(to right, #00bcd4, #0077b6); color: white; font-weight: bold; border-radius: 50px">🐟 Submit Registration 🐡</button>
           </td>
         </tr>
       </tbody>
     </table>
   </form>
+
+  <!-- Decorative Sea Animals -->
+  <div class="text-center mt-4">
+    <img src="images/sea_animals/fish1.png" alt="Fish" style="height: 50px; margin: 5px" />
+    <img src="images/sea_animals/dolphin.png" alt="Dolphin" style="height: 50px; margin: 5px" />
+    <img src="images/sea_animals/jellyfish.png" alt="Jellyfish" style="height: 50px; margin: 5px" />
+    <img src="images/sea_animals/crab.png" alt="Crab" style="height: 50px; margin: 5px" />
+  </div>
 </div>
