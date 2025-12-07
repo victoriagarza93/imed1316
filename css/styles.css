@@ -38,6 +38,7 @@ p {
     position: relative;
     Margin-top: -80px;
     font-family:var(--fontFamily) !important;
+    font-size: 22px;
 }
 
 .paragraph-one-img {
@@ -91,6 +92,3 @@ p {
     color:#000000
  }
 
-li {
-    color:black
-}
